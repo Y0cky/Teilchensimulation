@@ -1,0 +1,36 @@
+﻿Build started 26.11.2018 16:11:42.
+Project "C:\Users\Bernd\Desktop\Teilchen_01\Teilchen_01\Teilchen_01.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\Teilchen_01.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  All outputs are up-to-date.
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Teilchen_01.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Teilchen_01Dlg.cpp
+  Teilchen_01Dlg.cpp
+c:\users\bernd\desktop\teilchen_01\teilchen_01\teilchen_01dlg.cpp(177): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+c:\users\bernd\desktop\teilchen_01\teilchen_01\teilchen_01dlg.cpp(198): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+c:\users\bernd\desktop\teilchen_01\teilchen_01\teilchen_01dlg.cpp(200): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+c:\users\bernd\desktop\teilchen_01\teilchen_01\teilchen_01dlg.cpp(201): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+ResourceCompile:
+  All outputs are up-to-date.
+ManifestResourceCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Bernd\Desktop\Teilchen_01\Debug\Teilchen_01.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Teilchen_01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Bernd\Desktop\Teilchen_01\Debug\Teilchen_01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Bernd\Desktop\Teilchen_01\Debug\Teilchen_01.lib" /MACHINE:X86 Debug\Teilchen_01.res
+  Debug\Teilchen_01.exe.embed.manifest.res
+  Debug\stdafx.obj
+  Debug\Teilchen_01.obj
+  Debug\Teilchen_01Dlg.obj
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Teilchen_01.exe.embed.manifest" /manifest Debug\Teilchen_01.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+  All outputs are up-to-date.
+LinkEmbedManifest:
+  All outputs are up-to-date.
+  Teilchen_01.vcxproj -> C:\Users\Bernd\Desktop\Teilchen_01\Debug\Teilchen_01.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\Teilchen_01.unsuccessfulbuild".
+  Touching "Debug\Teilchen_01.lastbuildstate".
+Done Building Project "C:\Users\Bernd\Desktop\Teilchen_01\Teilchen_01\Teilchen_01.vcxproj" (build target(s)).
+
+Das Erstellen war erfolgreich.
+
+Time Elapsed 00:00:01.37
